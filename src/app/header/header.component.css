@@ -1,11 +1,11 @@
 nav{
-    background-color: rgb(255, 236, 218);
+    background-color: whitesmoke;
     font-style: oblique;
     font-family: cursive;
-    margin: 0;
-    
+    margin: 0;   
 }
+
 .navbar-brand{
-    color: rgb(185, 71, 4);
+    color: rgb(0, 104, 64);
 }
 
