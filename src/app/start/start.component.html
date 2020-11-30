@@ -1,7 +1,7 @@
 <body>
     <div class="bg-img">
             <div class="col-md-6">
-                <section class="container flex-center">
+                <section>
                     <h2>Welcome to our Travel blog</h2>
                     <p>
                         Here you can share your travel experiences and interact with others too
@@ -9,19 +9,31 @@
                 </section>
             </div>
             <div class="col-md-6">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Join Us!</h5>
-                        <form>
-                            <label for="name"></label>
-                            <input type="text" placeholder="your name">
-                            
-                        </form>
-                    </div>
-                </div>
-             
+                    <mat-card style="width: 35em;">
+                        <mat-card-title>Join Us!</mat-card-title>
+                        <hr>
+                        <mat-card-content>
+                            <form>
+                                <mat-form-field>
+                                    <mat-label>Name</mat-label>
+                                    <input type="text" matInput >
+                                </mat-form-field>
+                                <mat-form-field>
+                                    <mat-label>Email</mat-label>
+                                    <input type="email" matInput >
+                                </mat-form-field>
+                                <mat-form-field>
+                                    <mat-label>Password</mat-label>
+                                    <input type="password" matInput >
+                                </mat-form-field>
+                                <button type="submit" mat-raised-button>Sign Up</button>
+                            </form>
+                        </mat-card-content>
+                    </mat-card>
             </div>
-        </div>
+             
+            
+    </div>
       
 
 </body>
