@@ -1,0 +1,35 @@
+mat-card{
+    background-color: transparent;
+    margin-top: 11rem;
+}
+mat-card-title{
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(56, 82, 59);
+}
+mat-form-field{
+    width: 30em;
+}
+
+mat-label{
+    color: white;
+    font-size: 18px;
+}
+
+input{
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+}
+button{
+    background: rgb(72, 102, 75);
+    color: white;
+    width: 5.5em;
+    height: 2.5em;
+    font-size: 17px;
+    margin:0 10em 0 10em;
+}
+button:hover{
+    background:  rgb(56, 82, 59);
+    color: white;
+}

@@ -1,0 +1,33 @@
+
+img{
+    width: 400px;
+    height: 200px;
+    margin-right: 1rem;
+}
+.card{
+    background-color: white;
+    min-height: 230px;
+    margin: 3.5rem;
+    padding:  15px ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: block;
+    cursor: pointer;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: 650;
+}
+span{
+    color: grey;
+    font-weight: 500;
+}
+article{
+    margin-top: 1rem;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    width: 550px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

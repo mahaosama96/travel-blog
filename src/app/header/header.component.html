@@ -10,20 +10,13 @@
     
                 <div class="navbar-collapse" [class.collapse]="collapsed" (window:resize)="collapsed = true">    
                     <ul class="nav navbar-nav">
-                        <li routerLinkActive="active" ><a class="nav-link" style="color: rgb(0, 104, 64)">Posts</a></li>
-                        <li routerLinkActive="active" ><a class="nav-link" style="color: rgb(0, 104, 64)">About</a></li>
-                        <li routerLinkActive="active"><a class="nav-link" style="color: rgb(0, 104, 64)">Shopping List</a></li>
+                        <li routerLinkActive="active" ><a class="nav-link" 
+                            style="color: rgb(0, 104, 64);cursor: pointer;">Blog</a></li>
+                        <li routerLinkActive="active" ><a style="color: rgb(0, 104, 64);cursor: pointer;">About</a></li>
                     </ul>
     
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown" appDropdown >
-                            <a class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a style="cursor: pointer;">Save Data</a></li>
-                                <li><a style="cursor: pointer;" >Fetch Data</a></li>
-                            </ul>
-                        </li>
-                        <li >
+                        <li>
                             <a style="cursor: pointer;">Logout</a>
                         </li>
                     </ul>
