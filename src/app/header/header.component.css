@@ -1,11 +1,18 @@
 nav{
     background-color: whitesmoke;
     font-style: oblique;
-    font-family: cursive;
-    margin: 0;   
+    padding-left: 4.5em;
+    padding-right: 7em;
+    margin: 0;
+    width: 100%;  
+    display: block;
+    height:40px;
 }
 
 .navbar-brand{
     color: rgb(0, 104, 64);
+    font-weight: 800;
 }
-
+.navbar-brand:hover{
+    color: rgb(0, 104, 64);
+}

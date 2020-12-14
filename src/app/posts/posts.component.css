@@ -19,10 +19,12 @@ h3{
     font-size: 22px;
     font-weight: 650;
 }
+
 span{
     color: grey;
     font-weight: 500;
 }
+
 article{
     margin-top: 1rem;
     overflow-wrap: break-word;
@@ -30,4 +32,16 @@ article{
     width: 550px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.btn-group{
+    margin-top: 4.2rem;
+}
+
+button{
+    margin-right: 7px;
+    font-size: 1.1em;
+}
+mat-icon{
+    margin-right: 5px;
 }

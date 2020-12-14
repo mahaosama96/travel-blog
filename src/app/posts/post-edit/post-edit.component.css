@@ -1,0 +1,31 @@
+.container{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.btn-group{
+    margin-bottom: 2em;
+    margin-left: 1rem;
+}
+button{
+    margin-right: 1rem;
+}
+button[type="submit"]{
+    background: rgb(101, 156, 101);
+    color: white;
+}
+button[type="reset"]{
+    background: rgb(223, 21, 21);
+    color: white;
+}
+
+mat-label{
+    font-size: 1.2em;
+}
+mat-form-field{
+    width: 80%;
+}
+input,textarea{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

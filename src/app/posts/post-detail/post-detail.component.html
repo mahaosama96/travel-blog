@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="col-xs-12">
+        <h1>{{post.title}}</h1>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-8"> 
+            <img [src]="post.imgPath" 
+            alt="{{post.title}}"
+            class="img-responsive"/>
+        </div>
+        <div class="col-md-4">
+            <div class="btn-group d-flex">
+                <button mat-icon-button  aria-hidden="false" class="p-2">
+                    <mat-icon>favorite_border</mat-icon>
+                </button>
+                <button mat-icon-button class="p-2">
+                    <mat-icon>share</mat-icon>
+                </button>
+                <button mat-icon-button class="p-2" (click)="onEditPost()">
+                    <mat-icon>edit</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <span>Written by: {{post.author}}</span>
+        <br>
+        <span>Date Published: {{post.date | date: 'dd/MM/yyyy'}}</span>
+    </div>
+    <div class="col-xs-12">
+        <article>
+            {{post.details}}
+        </article>
+    </div>
+
+    <div class="col-xs-12">
+       
+    </div>
+
+</div>

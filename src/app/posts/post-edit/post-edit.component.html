@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="col-xs-12">
+        <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+            <div class="d-flex btn-group">
+                <button mat-flat-button type="submit" class="p-2" 
+                    >Submit</button>
+                <button mat-flat-button type="reset" class="p-2" 
+                    (click)="onClear()">Reset</button>
+                <button mat-raised-button type="button" color="primary" class="p-2" 
+                    (click)="onCancel()">Cancel</button>
+            </div>
+            <div class="col-xs-12">
+                <mat-form-field appearance="outline">
+                    <mat-label for="title">Title</mat-label>
+                    <input 
+                        matInput
+                        type="text"
+                        id="title" 
+                        formControlName="title">
+                </mat-form-field>
+            </div>
+            <div class="col-xs-12">
+                <mat-form-field appearance="outline">
+                    <mat-label for="imgPath">Image Path</mat-label>
+                    <input 
+                        type="text"
+                        id="imgPath"
+                        placeholder="Enter image link here" 
+                        matInput
+                        #imgPath
+                        formControlName="imgPath">
+                </mat-form-field>
+            </div>
+            <div class="col-xs-12">
+                <img [src]="imgPath.value" class="img-responsive">
+            </div>
+            <div class="col-xs-12">
+                <mat-form-field appearance="outline">
+                    <mat-label for="content">Content</mat-label>
+                    <textarea matInput type="text" cols="50" rows="9" 
+                     id="content"
+                     formControlName="content"></textarea>
+                </mat-form-field>
+            </div>
+        </form>
+    </div>
+    
+</div>
+   
